@@ -1,0 +1,4 @@
+name,description
+mobilenetv2_baseline,Original MobileNetV2 pretrained backbone
+mobilenetv2_residual,MobileNetV2 + lightweight residual enhancement branch
+mobilenetv2_residual_se,MobileNetV2 + residual branch + SE attention

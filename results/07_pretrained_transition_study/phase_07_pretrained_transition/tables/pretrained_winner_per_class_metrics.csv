@@ -1,0 +1,39 @@
+Experiment,Class_ID,Class,Train Sample Count,Is Minority,Recall,F1-score
+pretrained_winner,0,Apple___Apple_scab,100,True,0.7777777777777778,0.8484848484848485
+pretrained_winner,1,Apple___Black_rot,223,False,0.9444444444444444,0.9714285714285714
+pretrained_winner,2,Apple___Cedar_apple_rust,99,True,0.875,0.7777777777777778
+pretrained_winner,3,Apple___healthy,263,False,0.8775510204081632,0.9247311827956989
+pretrained_winner,4,Blueberry___healthy,240,False,0.9777777777777777,0.9777777777777777
+pretrained_winner,5,Cherry_(including_sour)___Powdery_mildew,168,False,0.967741935483871,0.9375
+pretrained_winner,6,Cherry_(including_sour)___healthy,136,True,1.0,0.9615384615384616
+pretrained_winner,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,184,False,0.9333333333333333,0.7777777777777778
+pretrained_winner,8,Corn_(maize)___Common_rust_,190,False,1.0,1.0
+pretrained_winner,9,Corn_(maize)___Northern_Leaf_Blight,157,True,0.8275862068965517,0.8888888888888888
+pretrained_winner,10,Corn_(maize)___healthy,186,False,1.0,1.0
+pretrained_winner,11,Grape___Black_rot,188,False,0.9428571428571428,0.9295774647887324
+pretrained_winner,12,Grape___Esca_(Black_Measles),221,False,0.975609756097561,0.9523809523809523
+pretrained_winner,13,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),172,False,0.875,0.9333333333333333
+pretrained_winner,14,Grape___healthy,152,True,0.9166666666666666,0.9565217391304348
+pretrained_winner,15,Orange___Haunglongbing_(Citrus_greening),881,False,1.0,0.9880239520958084
+pretrained_winner,16,Peach___Bacterial_spot,367,False,0.8695652173913043,0.9230769230769231
+pretrained_winner,17,Peach___healthy,129,True,1.0,0.6896551724137931
+pretrained_winner,18,"Pepper,_bell___Bacterial_spot",159,False,0.8620689655172413,0.7936507936507936
+pretrained_winner,19,"Pepper,_bell___healthy",236,False,0.7954545454545454,0.8536585365853658
+pretrained_winner,20,Potato___Early_blight,160,False,1.0,0.9523809523809523
+pretrained_winner,21,Potato___Late_blight,160,False,0.7666666666666667,0.7301587301587301
+pretrained_winner,22,Potato___healthy,54,True,1.0,0.5517241379310345
+pretrained_winner,23,Raspberry___healthy,133,True,1.0,0.9565217391304348
+pretrained_winner,24,Soybean___healthy,814,False,0.9276315789473685,0.9431438127090301
+pretrained_winner,25,Squash___Powdery_mildew,293,False,0.9636363636363636,0.9814814814814815
+pretrained_winner,26,Strawberry___Leaf_scorch,177,False,0.9696969696969697,0.9411764705882353
+pretrained_winner,27,Strawberry___healthy,164,False,1.0,1.0
+pretrained_winner,28,Tomato___Bacterial_spot,340,False,0.7301587301587301,0.8141592920353983
+pretrained_winner,29,Tomato___Early_blight,160,False,0.8666666666666667,0.6046511627906976
+pretrained_winner,30,Tomato___Late_blight,305,False,0.6666666666666666,0.7307692307692307
+pretrained_winner,31,Tomato___Leaf_Mold,152,True,0.7857142857142857,0.7857142857142857
+pretrained_winner,32,Tomato___Septoria_leaf_spot,283,False,0.7735849056603774,0.8541666666666666
+pretrained_winner,33,Tomato___Spider_mites Two-spotted_spider_mite,268,False,0.88,0.8712871287128713
+pretrained_winner,34,Tomato___Target_Spot,224,False,0.6904761904761905,0.7733333333333333
+pretrained_winner,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,857,False,0.9625,0.9685534591194969
+pretrained_winner,36,Tomato___Tomato_mosaic_virus,134,True,0.9090909090909091,0.8333333333333334
+pretrained_winner,37,Tomato___healthy,254,False,0.9787234042553191,0.989247311827957

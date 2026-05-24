@@ -1,0 +1,115 @@
+dataset_name,class_name,image_count,image_mode,avg_width,avg_height
+color,Apple___Apple_scab,630,RGB,256.0,256.0
+color,Apple___Black_rot,621,RGB,256.0,256.0
+color,Apple___Cedar_apple_rust,275,RGB,256.0,256.0
+color,Apple___healthy,1645,RGB,256.0,256.0
+color,Blueberry___healthy,1502,RGB,256.0,256.0
+color,Cherry_(including_sour)___Powdery_mildew,1052,RGB,256.0,256.0
+color,Cherry_(including_sour)___healthy,854,RGB,256.0,256.0
+color,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,513,RGB,256.0,256.0
+color,Corn_(maize)___Common_rust_,1192,RGB,256.0,256.0
+color,Corn_(maize)___Northern_Leaf_Blight,985,RGB,256.0,256.0
+color,Corn_(maize)___healthy,1162,RGB,256.0,256.0
+color,Grape___Black_rot,1180,RGB,256.0,256.0
+color,Grape___Esca_(Black_Measles),1383,RGB,256.0,256.0
+color,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),1076,RGB,256.0,256.0
+color,Grape___healthy,423,RGB,256.0,256.0
+color,Orange___Haunglongbing_(Citrus_greening),5507,RGB,256.0,256.0
+color,Peach___Bacterial_spot,2297,RGB,256.0,256.0
+color,Peach___healthy,360,RGB,256.0,256.0
+color,"Pepper,_bell___Bacterial_spot",997,RGB,256.0,256.0
+color,"Pepper,_bell___healthy",1478,RGB,256.0,256.0
+color,Potato___Early_blight,1000,RGB,256.0,256.0
+color,Potato___Late_blight,1000,RGB,256.0,256.0
+color,Potato___healthy,152,RGB,256.0,256.0
+color,Raspberry___healthy,371,RGB,256.0,256.0
+color,Soybean___healthy,5090,RGB,256.0,256.0
+color,Squash___Powdery_mildew,1835,RGB,256.0,256.0
+color,Strawberry___Leaf_scorch,1109,RGB,256.0,256.0
+color,Strawberry___healthy,456,RGB,256.0,256.0
+color,Tomato___Bacterial_spot,2127,RGB,256.0,256.0
+color,Tomato___Early_blight,1000,RGB,256.0,256.0
+color,Tomato___Late_blight,1909,RGB,256.0,256.0
+color,Tomato___Leaf_Mold,952,RGB,256.0,256.0
+color,Tomato___Septoria_leaf_spot,1771,RGB,256.0,256.0
+color,Tomato___Spider_mites Two-spotted_spider_mite,1676,RGB,256.0,256.0
+color,Tomato___Target_Spot,1404,RGB,256.0,256.0
+color,Tomato___Tomato_Yellow_Leaf_Curl_Virus,5357,RGB,256.0,256.0
+color,Tomato___Tomato_mosaic_virus,373,RGB,256.0,256.0
+color,Tomato___healthy,1591,RGB,256.0,256.0
+grayscale,Apple___Apple_scab,630,Grayscale (RGB Saved),256.0,256.0
+grayscale,Apple___Black_rot,621,Grayscale (RGB Saved),256.0,256.0
+grayscale,Apple___Cedar_apple_rust,275,Grayscale (RGB Saved),256.0,256.0
+grayscale,Apple___healthy,1645,Grayscale (RGB Saved),256.0,256.0
+grayscale,Blueberry___healthy,1502,Grayscale (RGB Saved),256.0,256.0
+grayscale,Cherry_(including_sour)___Powdery_mildew,1052,Grayscale (RGB Saved),256.0,256.0
+grayscale,Cherry_(including_sour)___healthy,854,Grayscale (RGB Saved),256.0,256.0
+grayscale,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,513,Grayscale (RGB Saved),256.0,256.0
+grayscale,Corn_(maize)___Common_rust_,1192,Grayscale (RGB Saved),256.0,256.0
+grayscale,Corn_(maize)___Northern_Leaf_Blight,985,Grayscale (RGB Saved),256.0,256.0
+grayscale,Corn_(maize)___healthy,1162,Grayscale (RGB Saved),256.0,256.0
+grayscale,Grape___Black_rot,1180,Grayscale (RGB Saved),256.0,256.0
+grayscale,Grape___Esca_(Black_Measles),1383,Grayscale (RGB Saved),256.0,256.0
+grayscale,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),1076,Grayscale (RGB Saved),256.0,256.0
+grayscale,Grape___healthy,423,Grayscale (RGB Saved),256.0,256.0
+grayscale,Orange___Haunglongbing_(Citrus_greening),5507,Grayscale (RGB Saved),256.0,256.0
+grayscale,Peach___Bacterial_spot,2297,Grayscale (RGB Saved),256.0,256.0
+grayscale,Peach___healthy,360,Grayscale (RGB Saved),256.0,256.0
+grayscale,"Pepper,_bell___Bacterial_spot",997,Grayscale (RGB Saved),256.0,256.0
+grayscale,"Pepper,_bell___healthy",1478,Grayscale (RGB Saved),256.0,256.0
+grayscale,Potato___Early_blight,1000,Grayscale (RGB Saved),256.0,256.0
+grayscale,Potato___Late_blight,1000,Grayscale (RGB Saved),256.0,256.0
+grayscale,Potato___healthy,152,Grayscale (RGB Saved),256.0,256.0
+grayscale,Raspberry___healthy,371,Grayscale (RGB Saved),256.0,256.0
+grayscale,Soybean___healthy,5090,Grayscale (RGB Saved),256.0,256.0
+grayscale,Squash___Powdery_mildew,1835,Grayscale (RGB Saved),256.0,256.0
+grayscale,Strawberry___Leaf_scorch,1109,Grayscale (RGB Saved),256.0,256.0
+grayscale,Strawberry___healthy,456,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Bacterial_spot,2127,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Early_blight,1000,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Late_blight,1909,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Leaf_Mold,952,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Septoria_leaf_spot,1771,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Spider_mites Two-spotted_spider_mite,1676,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Target_Spot,1404,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Tomato_Yellow_Leaf_Curl_Virus,5357,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___Tomato_mosaic_virus,373,Grayscale (RGB Saved),256.0,256.0
+grayscale,Tomato___healthy,1591,Grayscale (RGB Saved),256.0,256.0
+segmented,Apple___Apple_scab,630,RGB,256.0,256.0
+segmented,Apple___Black_rot,621,RGB,256.0,256.0
+segmented,Apple___Cedar_apple_rust,275,RGB,256.0,256.0
+segmented,Apple___healthy,1645,RGB,256.0,256.0
+segmented,Blueberry___healthy,1502,RGB,256.0,256.0
+segmented,Cherry_(including_sour)___Powdery_mildew,1052,RGB,256.0,256.0
+segmented,Cherry_(including_sour)___healthy,854,RGB,256.0,256.0
+segmented,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,513,RGB,256.0,256.0
+segmented,Corn_(maize)___Common_rust_,1192,RGB,256.0,256.0
+segmented,Corn_(maize)___Northern_Leaf_Blight,985,RGB,256.0,256.0
+segmented,Corn_(maize)___healthy,1162,RGB,256.0,256.0
+segmented,Grape___Black_rot,1180,RGB,256.0,256.0
+segmented,Grape___Esca_(Black_Measles),1384,RGB,256.0,256.0
+segmented,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),1076,RGB,256.0,256.0
+segmented,Grape___healthy,423,RGB,256.0,256.0
+segmented,Orange___Haunglongbing_(Citrus_greening),5507,RGB,256.0,256.0
+segmented,Peach___Bacterial_spot,2297,RGB,256.0,256.0
+segmented,Peach___healthy,360,RGB,256.0,256.0
+segmented,"Pepper,_bell___Bacterial_spot",997,RGB,256.0,256.0
+segmented,"Pepper,_bell___healthy",1478,RGB,256.0,256.0
+segmented,Potato___Early_blight,1000,RGB,256.0,256.0
+segmented,Potato___Late_blight,1000,RGB,256.0,256.0
+segmented,Potato___healthy,152,RGB,256.0,256.0
+segmented,Raspberry___healthy,371,RGB,256.0,256.0
+segmented,Soybean___healthy,5090,RGB,256.0,256.0
+segmented,Squash___Powdery_mildew,1835,RGB,256.0,256.0
+segmented,Strawberry___Leaf_scorch,1109,RGB,256.0,256.0
+segmented,Strawberry___healthy,456,RGB,256.0,256.0
+segmented,Tomato___Bacterial_spot,2127,RGB,256.0,256.0
+segmented,Tomato___Early_blight,1000,RGB,256.0,256.0
+segmented,Tomato___Late_blight,1909,RGB,256.0,256.0
+segmented,Tomato___Leaf_Mold,952,RGB,256.0,256.0
+segmented,Tomato___Septoria_leaf_spot,1771,RGB,256.0,256.0
+segmented,Tomato___Spider_mites Two-spotted_spider_mite,1676,RGB,256.0,256.0
+segmented,Tomato___Target_Spot,1404,RGB,256.0,256.0
+segmented,Tomato___Tomato_Yellow_Leaf_Curl_Virus,5357,RGB,256.0,256.0
+segmented,Tomato___Tomato_mosaic_virus,373,RGB,256.0,256.0
+segmented,Tomato___healthy,1591,RGB,256.0,256.0

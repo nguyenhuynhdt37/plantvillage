@@ -1,0 +1,39 @@
+Experiment,Class_ID,Class,Train Sample Count,Is Minority,Recall,F1-score
+pretrained_ce,0,Apple___Apple_scab,100,True,0.7777777777777778,0.8
+pretrained_ce,1,Apple___Black_rot,223,False,0.9444444444444444,0.8717948717948718
+pretrained_ce,2,Apple___Cedar_apple_rust,99,True,0.75,0.8571428571428571
+pretrained_ce,3,Apple___healthy,263,False,0.9591836734693877,0.9038461538461539
+pretrained_ce,4,Blueberry___healthy,240,False,0.9777777777777777,0.9777777777777777
+pretrained_ce,5,Cherry_(including_sour)___Powdery_mildew,168,False,1.0,0.9538461538461539
+pretrained_ce,6,Cherry_(including_sour)___healthy,136,True,0.92,0.92
+pretrained_ce,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,184,False,0.9333333333333333,0.8
+pretrained_ce,8,Corn_(maize)___Common_rust_,190,False,0.9722222222222222,0.9333333333333333
+pretrained_ce,9,Corn_(maize)___Northern_Leaf_Blight,157,True,0.6551724137931034,0.7755102040816326
+pretrained_ce,10,Corn_(maize)___healthy,186,False,1.0,1.0
+pretrained_ce,11,Grape___Black_rot,188,False,1.0,0.9333333333333333
+pretrained_ce,12,Grape___Esca_(Black_Measles),221,False,0.9024390243902439,0.925
+pretrained_ce,13,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),172,False,1.0,1.0
+pretrained_ce,14,Grape___healthy,152,True,0.9166666666666666,0.9565217391304348
+pretrained_ce,15,Orange___Haunglongbing_(Citrus_greening),881,False,1.0,0.9939759036144579
+pretrained_ce,16,Peach___Bacterial_spot,367,False,0.9130434782608695,0.9264705882352942
+pretrained_ce,17,Peach___healthy,129,True,1.0,0.8695652173913043
+pretrained_ce,18,"Pepper,_bell___Bacterial_spot",159,False,0.7931034482758621,0.8679245283018868
+pretrained_ce,19,"Pepper,_bell___healthy",236,False,0.8863636363636364,0.896551724137931
+pretrained_ce,20,Potato___Early_blight,160,False,0.9666666666666667,0.9666666666666667
+pretrained_ce,21,Potato___Late_blight,160,False,0.8,0.8888888888888888
+pretrained_ce,22,Potato___healthy,54,True,1.0,0.9411764705882353
+pretrained_ce,23,Raspberry___healthy,133,True,1.0,1.0
+pretrained_ce,24,Soybean___healthy,814,False,0.993421052631579,0.9805194805194806
+pretrained_ce,25,Squash___Powdery_mildew,293,False,1.0,0.990990990990991
+pretrained_ce,26,Strawberry___Leaf_scorch,177,False,0.9696969696969697,0.9552238805970149
+pretrained_ce,27,Strawberry___healthy,164,False,1.0,1.0
+pretrained_ce,28,Tomato___Bacterial_spot,340,False,0.8253968253968254,0.832
+pretrained_ce,29,Tomato___Early_blight,160,False,0.5333333333333333,0.5245901639344263
+pretrained_ce,30,Tomato___Late_blight,305,False,0.7192982456140351,0.7387387387387387
+pretrained_ce,31,Tomato___Leaf_Mold,152,True,0.8214285714285714,0.8363636363636363
+pretrained_ce,32,Tomato___Septoria_leaf_spot,283,False,0.8867924528301887,0.9038461538461539
+pretrained_ce,33,Tomato___Spider_mites Two-spotted_spider_mite,268,False,0.9,0.8737864077669902
+pretrained_ce,34,Tomato___Target_Spot,224,False,0.7142857142857143,0.759493670886076
+pretrained_ce,35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,857,False,0.96875,0.9597523219814241
+pretrained_ce,36,Tomato___Tomato_mosaic_virus,134,True,0.9090909090909091,0.9090909090909091
+pretrained_ce,37,Tomato___healthy,254,False,0.9148936170212766,0.945054945054945

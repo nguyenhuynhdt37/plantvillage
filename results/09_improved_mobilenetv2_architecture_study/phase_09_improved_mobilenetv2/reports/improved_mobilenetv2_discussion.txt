@@ -1,0 +1,12 @@
+THẢO LUẬN HỌC THUẬT
+===================
+
+Phase 09 đề xuất Improved-MobileNetV2 bằng cách kết hợp MobileNetV2 pretrained backbone với residual enhancement branch và attention nhẹ. MobileNetV2 cung cấp feature extractor mạnh, học được các visual primitives từ ImageNet. Residual branch được thiết kế nông và nhẹ để học thêm local disease patterns như đốm bệnh, texture tổn thương và biến đổi màu sắc trên lá.
+
+SE attention hoặc CBAM nhẹ có mục tiêu giúp model tăng trọng số cho các kênh hoặc vùng không gian có thông tin phân biệt bệnh. Điều này đặc biệt quan trọng trong plant disease classification vì vùng bệnh có thể nhỏ, không nằm ở trung tâm ảnh hoặc bị nhiễu bởi nền lá khỏe.
+
+Best architecture là `mobilenetv2_residual_se` với Macro F1 = 0.9888, Minority Recall = 0.9941, Worst Recall = 0.9412. So với MobileNetV2 baseline, Macro F1 thay đổi +0.0059, Minority Recall thay đổi +0.0032, và số parameters thay đổi +488,668.
+
+Improved architecture cho thấy hiệu quả bổ trợ: tăng đồng thời Macro F1 và Minority Recall so với MobileNetV2 baseline.
+
+Về deployment, kiến trúc cải tiến vẫn giữ MobileNetV2 làm backbone chính và residual branch tương đối nhỏ. Vì vậy mô hình vẫn phù hợp hơn cho edge/mobile deployment so với các backbone lớn. Tuy nhiên, nếu số parameters hoặc inference time tăng mà Macro F1 không cải thiện tương ứng, kiến trúc baseline vẫn là lựa chọn hiệu quả hơn.

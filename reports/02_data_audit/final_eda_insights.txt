@@ -1,0 +1,38 @@
+=== BÁO CÁO PHÂN TÍCH HỆ THỐNG KHOA HỌC DỮ LIỆU - PLANTVILLAGE EDA ===
+Ngày thực thi: 2026-05-24 11:19:10
+
+1. PHÂN TÍCH ĐỘ HỖN LOẠN & MẤT CÂN BẰNG PHÂN BỐ LỚP:
+   * Phiên bản dữ liệu 'COLOR':
+     - Tổng số ảnh: 54305 | Tổng số lớp: 38
+     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
+     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
+     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
+     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+
+   * Phiên bản dữ liệu 'GRAYSCALE':
+     - Tổng số ảnh: 54305 | Tổng số lớp: 38
+     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
+     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
+     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
+     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+
+   * Phiên bản dữ liệu 'SEGMENTED':
+     - Tổng số ảnh: 54306 | Tổng số lớp: 38
+     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
+     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
+     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
+     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+
+2. ĐÁNH GIÁ THUỘC TÍNH VẬT LÝ VÀ CHẾ ĐỘ MÀU (IMAGE ATTRIBUTES):
+   * Bộ COLOR: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'RGB': 1.0}
+   * Bộ GRAYSCALE: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'Grayscale (RGB Saved)': 1.0}
+   * Bộ SEGMENTED: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'RGB': 1.0}
+
+3. PHÁT HIỆN TRÙNG LẶP DỮ LIỆU & RÒ RỈ THÔNG TIN (dHash):
+   - Quét toàn bộ 54305 ảnh của bộ màu gốc bằng dHash đa luồng song song.
+   - Kết quả phát hiện: 30 cặp trùng lặp nội lớp (Intra-class) và 0 cặp trùng lặp liên lớp (Cross-class).
+   - Nhận định: Không phát hiện trùng lặp liên lớp, xác nhận không có hiện tượng nhiễu gán nhãn chéo (mislabeling).
+   - Hành động đề xuất: Lọc bỏ toàn bộ danh sách trùng lặp nội lớp trong file duplicate_pairs.csv để chống rò rỉ dữ liệu.

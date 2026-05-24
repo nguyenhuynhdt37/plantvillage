@@ -1,0 +1,5 @@
+name,model_type,use_sampler,strategy
+simplecnn_ce,simplecnn,False,SimpleCNN + CrossEntropy
+simplecnn_winner,simplecnn,True,SimpleCNN + WeightedRandomSampler + Light Augmentation + EarlyStopping
+pretrained_ce,mobilenetv2,False,MobileNetV2 pretrained + CrossEntropy
+pretrained_winner,mobilenetv2,True,MobileNetV2 pretrained + WeightedRandomSampler + Light Augmentation + EarlyStopping
