@@ -1,0 +1,8 @@
+Phase,Model,Strategy,Experiment,Accuracy,Macro Precision,Macro Recall,Macro F1,Minority Recall,Worst Recall,Params,Inference Time ms/image,Source
+Phase 09,Improved MobileNetV2 final model,Residual/attention enhanced MobileNetV2,mobilenetv2_residual_se,0.9915301049530472,0.9867498528057076,0.99104382468344,0.9888075854062378,0.9941176470588236,0.9411764705882352,2761218.0,,Phase 09
+Phase 08,MobileNetV2 winner,MobileNetV2 pretrained + sampler winner strategy,mobilenetv2_winner,0.9865586448167925,0.980588644336646,0.9855189093773988,0.9829215240435424,0.9909430438842204,0.9361702127659576,2272550.0,,Phase 08
+Phase 08,EfficientNet-B0 winner,EfficientNet-B0 pretrained + sampler winner strategy,efficientnet_b0_winner,0.9841649788252624,0.9782113100453514,0.981341025493416,0.9795558208669216,0.9791409897292253,0.8979591836734694,4056226.0,,Phase 08
+Phase 05,Phase 05 winner,WeightedRandomSampler + Light Augmentation + EarlyStopping,sampler_aug_earlystop,0.8331273176761433,,,0.8126352213919803,0.8988256704980844,0.5227272727272727,,,Phase 05
+Phase 07,SimpleCNN hybrid strategy,Best Phase 05 strategy + best Phase 06 loss,sampler_aug_earlystop,0.8331273176761433,,,0.8126352213919803,0.8988256704980844,0.5227272727272727,,,Phase 07
+Phase 05,SimpleCNN baseline,CrossEntropy baseline,baseline,0.8491965389369592,,,0.7988963555146757,0.7158827188137533,0.2777777777777778,,,Phase 05
+Phase 06,Best loss-level SimpleCNN,Best loss function strategy on SimpleCNN,class_balanced_loss,0.8325092707045736,0.7750587148205241,0.8458575041394688,0.7959354455148562,0.8862951933124347,0.4528301886792453,,,Phase 06

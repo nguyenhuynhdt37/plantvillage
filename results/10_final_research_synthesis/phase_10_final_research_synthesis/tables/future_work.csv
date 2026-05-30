@@ -1,0 +1,8 @@
+Future Work
+Chạy multi-seed experiments để báo cáo mean/std và statistical significance mạnh hơn.
+Thử cross-dataset validation trên dữ liệu thực địa hoặc dataset bệnh cây khác.
+So sánh thêm với Vision Transformer và self-supervised pretrained models.
+"Tối ưu deployment bằng pruning, quantization hoặc knowledge distillation."
+Kết hợp disease localization/segmentation để tăng explainability và robustness.
+"Đánh giá latency, memory và energy consumption trực tiếp trên mobile/edge devices."
+Thiết kế augmentation mạnh hơn nhưng vẫn bảo toàn triệu chứng bệnh.

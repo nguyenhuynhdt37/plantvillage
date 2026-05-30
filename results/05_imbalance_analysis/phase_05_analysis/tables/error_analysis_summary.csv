@@ -1,0 +1,39 @@
+Class_ID,Class,Best Model Recall,Train Sample Count,Common Confused With,Possible Reason
+19,"Pepper,_bell___healthy",0.5227272727272727,236,"Pepper,_bell___Bacterial_spot, Potato___healthy",triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+16,Peach___Bacterial_spot,0.5507246376811594,367,"Pepper,_bell___Bacterial_spot, Tomato___Late_blight",texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+0,Apple___Apple_scab,0.5555555555555556,100,Tomato___Septoria_leaf_spot,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+30,Tomato___Late_blight,0.5614035087719298,305,"Tomato___Spider_mites Two-spotted_spider_mite, Pepper,_bell___Bacterial_spot",triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+32,Tomato___Septoria_leaf_spot,0.5849056603773585,283,"Potato___Early_blight, Peach___Bacterial_spot",texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+29,Tomato___Early_blight,0.6333333333333333,160,Tomato___Bacterial_spot,triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+3,Apple___healthy,0.6938775510204082,263,Soybean___healthy,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+21,Potato___Late_blight,0.7333333333333333,160,Tomato___Target_Spot,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+31,Tomato___Leaf_Mold,0.75,152,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+28,Tomato___Bacterial_spot,0.7936507936507936,340,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,0.8,184,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+24,Soybean___healthy,0.8092105263157895,814,"Cherry_(including_sour)___healthy, Potato___healthy, Apple___healthy",texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+5,Cherry_(including_sour)___Powdery_mildew,0.8387096774193549,168,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+11,Grape___Black_rot,0.8571428571428571,188,Grape___Esca_(Black_Measles),triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+34,Tomato___Target_Spot,0.8571428571428571,224,Tomato___Spider_mites Two-spotted_spider_mite,triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+18,"Pepper,_bell___Bacterial_spot",0.8620689655172413,159,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.86875,857,"Tomato___Spider_mites Two-spotted_spider_mite, Tomato___Bacterial_spot",triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+22,Potato___healthy,0.875,54,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+1,Apple___Black_rot,0.8888888888888888,223,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+12,Grape___Esca_(Black_Measles),0.9024390243902439,221,Grape___Black_rot,triệu chứng bệnh giống nhau trên cùng cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+13,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),0.90625,172,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+14,Grape___healthy,0.9166666666666666,152,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+33,Tomato___Spider_mites Two-spotted_spider_mite,0.92,268,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+27,Strawberry___healthy,0.9230769230769231,164,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+9,Corn_(maize)___Northern_Leaf_Blight,0.9310344827586207,157,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+4,Blueberry___healthy,0.9333333333333333,240,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+26,Strawberry___Leaf_scorch,0.9393939393939394,177,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+10,Corn_(maize)___healthy,0.9411764705882353,186,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+8,Corn_(maize)___Common_rust_,0.9444444444444444,190,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+6,Cherry_(including_sour)___healthy,0.96,136,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+25,Squash___Powdery_mildew,0.9636363636363636,293,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+20,Potato___Early_blight,0.9666666666666667,160,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+15,Orange___Haunglongbing_(Citrus_greening),0.9696969696969697,881,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp
+2,Apple___Cedar_apple_rust,1.0,99,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+17,Peach___healthy,1.0,129,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+23,Raspberry___healthy,1.0,133,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+36,Tomato___Tomato_mosaic_virus,1.0,134,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; số mẫu train thấp; giới hạn do ảnh resize ở độ phân giải thấp
+37,Tomato___healthy,1.0,254,Không nằm trong các cặp nhầm lẫn lớn nhất,texture hoặc màu sắc chồng lấn giữa các cây trồng; giới hạn do ảnh resize ở độ phân giải thấp

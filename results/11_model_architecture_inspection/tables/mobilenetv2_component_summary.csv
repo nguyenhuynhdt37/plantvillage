@@ -1,0 +1,4 @@
+component,module,parameters,trainable_parameters
+features,Sequential,2223872,2223872
+classifier,Sequential,48678,48678
+full_model,MobileNetV2,2272550,2272550

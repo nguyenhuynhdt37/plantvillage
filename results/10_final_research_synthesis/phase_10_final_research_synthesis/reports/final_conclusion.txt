@@ -1,0 +1,6 @@
+FINAL CONCLUSION
+================
+
+Nghiên cứu này xây dựng một pipeline đầy đủ cho PlantVillage Disease Classification dưới severe class imbalance. Các kết quả cho thấy WeightedRandomSampler và light augmentation cải thiện minority exposure; loss-level balancing cung cấp một hướng tối ưu hóa bổ sung nhưng cần kiểm soát độ ổn định; Phase 07 kiểm tra hybrid SimpleCNN trước khi mở rộng; Phase 08 so sánh trực tiếp MobileNetV2 và EfficientNet-B0 như hai mô hình học sâu hiện đại; và Phase 09 đánh giá khả năng cải tiến MobileNetV2 bằng residual/attention enhancement.
+
+Kết luận cuối cùng là modern pretrained CNN backbone kết hợp imbalance-aware training là final proposed direction phù hợp nhất cho bài toán fairness-aware plant disease classification trong project này.

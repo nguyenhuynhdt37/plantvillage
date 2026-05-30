@@ -201,7 +201,7 @@ def evaluate_model(model: nn.Module, test_loader, device, num_classes: int) -> d
         zero_division=0,
     )
     cm = confusion_matrix(labels, preds, labels=class_labels)
-
+    
     return {
         "accuracy": acc,
         "macro_f1": macro_f1,

@@ -1,0 +1,14 @@
+THẢO LUẬN HỌC THUẬT
+===================
+
+Phase 05 đánh giá các chiến lược xử lý mất cân bằng lớp trong bài toán phân loại bệnh lá cây PlantVillage. Tập train được giữ ở trạng thái mất cân bằng để quan sát rõ tác động của từng kỹ thuật. Trong bối cảnh này, Accuracy không đủ để kết luận model tốt hay không, vì model có thể đạt Accuracy cao bằng cách ưu tiên các class đa số nhưng vẫn nhận diện kém các class bệnh hiếm. Vì vậy, Macro F1, Minority Recall và Worst-class Recall được xem là các chỉ số quan trọng hơn để đánh giá mức độ công bằng theo từng class.
+
+WeightedRandomSampler hoạt động như một chiến lược dynamic oversampling. Phương pháp này không tạo ảnh mới và không thay đổi dataframe gốc. Thay vào đó, nó thay đổi xác suất lấy mẫu trong quá trình tạo mini-batch, làm cho các mẫu thuộc class thiểu số xuất hiện thường xuyên hơn trong mỗi epoch. Ưu điểm là model được tiếp xúc nhiều hơn với minority classes. Tuy nhiên, khi `replacement=True`, các ảnh hiếm có thể bị lặp lại nhiều lần, dẫn đến nguy cơ memorization và overfitting trên minority classes.
+
+Light data augmentation được thêm vào để giảm rủi ro này. Các biến đổi nhẹ như lật ngang, xoay nhỏ và thay đổi màu sắc ở mức vừa phải giúp tăng diversity của các mẫu bị lặp lại, trong khi vẫn bảo toàn dấu hiệu bệnh trên lá cây. Điều này quan trọng vì augmentation quá mạnh có thể làm biến dạng vết bệnh, màu sắc hoặc texture, từ đó làm mất thông tin chẩn đoán.
+
+EarlyStopping được thiết kế dựa trên Validation Macro F1. Tiêu chí này phù hợp với mục tiêu xử lý imbalance: quá trình train chỉ nên tiếp tục nếu hiệu năng cân bằng theo class trên validation set còn cải thiện. Nếu train loss tiếp tục giảm nhưng Validation Macro F1 đứng yên hoặc giảm, đó là dấu hiệu model đang học thuộc các mẫu minority bị lặp lại. EarlyStopping giúp chọn checkpoint có Validation Macro F1 tốt nhất và hạn chế overfitting ở giai đoạn cuối.
+
+Hybrid resampling được giữ lại như một đối chứng ở mức data-level. Khác với sampler-based balancing, hybrid resampling thay đổi training dataframe bằng cách undersample class đa số và oversample class thiểu số về một target size chung. Cách này tạo phân phối train cân bằng hơn, nhưng có thể làm mất diversity của majority classes và lặp lại các mẫu minority.
+
+Trong lần chạy này, experiment có Macro F1 cao nhất là `sampler_aug_earlystop`. Macro F1 thay đổi từ 0.7989 ở baseline lên 0.8126. Minority Recall thay đổi từ 0.7159 lên 0.8988. Nếu Accuracy giảm nhẹ trong khi Macro F1 và Minority Recall tăng, đây là trade-off có thể chấp nhận trong bài toán severe class imbalance, vì model bớt thiên lệch về majority classes và công bằng hơn với các class hiếm.

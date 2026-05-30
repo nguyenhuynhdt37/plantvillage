@@ -1,0 +1,12 @@
+FINAL DISCUSSION
+================
+
+Dự án PlantVillage Disease Classification được triển khai như một chuỗi nghiên cứu có cấu trúc, bắt đầu từ dữ liệu và SimpleCNN baseline, mở rộng sang sampler-based imbalance handling, loss-level balancing, SimpleCNN hybrid strategy, modern transfer learning và cuối cùng là kiến trúc MobileNetV2 cải tiến. Kết quả tổng hợp cho thấy severe class imbalance không thể được đánh giá chỉ bằng Accuracy. Các metric như Macro F1, Minority Recall và Worst Recall cung cấp góc nhìn công bằng hơn về khả năng nhận diện bệnh hiếm.
+
+Phase 05 cho thấy sampler-based balancing, đặc biệt WeightedRandomSampler kết hợp light augmentation và EarlyStopping theo Validation Macro F1, là một chiến lược hiệu quả để tăng minority exposure. Phase 06 chỉ ra rằng loss-level balancing có giá trị nghiên cứu, nhưng không mặc định vượt sampler-based balancing. Phase 07 kết hợp winner của Phase 05 và Phase 06 trong một SimpleCNN hybrid experiment để kiểm tra liệu sampler/data-level balancing và loss-level balancing có bổ trợ nhau hay không. MobileNetV2/EfficientNet-B0 chỉ bắt đầu từ Phase 08.
+
+Phase 08 là phase huấn luyện chính cho hai mô hình học sâu hiện đại: MobileNetV2 pretrained và EfficientNet-B0 pretrained. Cả hai được đánh giá trên cùng split, cùng augmentation, cùng WeightedRandomSampler và cùng EarlyStopping để so sánh công bằng. Phase 09 tiếp tục kiểm tra liệu residual enhancement và attention mechanism có cải thiện MobileNetV2 baseline hay không, đồng thời xem xét trade-off giữa performance và computational efficiency.
+
+Best overall model theo Macro F1 là `Improved MobileNetV2 final model` (`mobilenetv2_residual_se`) với Macro F1 = 0.9888. Best fairness-aware model theo Minority Recall/Worst Recall là `Improved MobileNetV2 final model` (`mobilenetv2_residual_se`) với Minority Recall = 0.9941. Các kết quả này nhấn mạnh rằng mô hình cuối không chỉ cần Accuracy cao mà còn phải ổn định trên minority classes.
+
+Nhìn chung, project cho thấy modern pretrained CNN backbones và imbalance-aware training là hai thành phần bổ trợ quan trọng. MobileNetV2/EfficientNet-B0-based pipeline là hướng phù hợp cho yêu cầu đồ án học máy vì vừa có so sánh mô hình học sâu hiện đại, vừa có phân tích lỗi, imbalance và fairness-aware metrics.

@@ -1,0 +1,4 @@
+Category,Model,Experiment,Macro F1,Minority Recall,Worst Recall
+Best overall model,Improved MobileNetV2 final model,mobilenetv2_residual_se,0.9888075854062378,0.9941176470588236,0.9411764705882352
+Best fairness-aware model,Improved MobileNetV2 final model,mobilenetv2_residual_se,0.9888075854062378,0.9941176470588236,0.9411764705882352
+Best lightweight model,Phase 05 winner,sampler_aug_earlystop,0.8126352213919803,0.8988256704980844,0.5227272727272727

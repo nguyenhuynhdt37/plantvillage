@@ -1,0 +1,21 @@
+True Class ID,True Class,Predicted Class ID,Predicted Class,Confused Samples,Confusion Rate Within True Class
+19,"Pepper,_bell___healthy",18,"Pepper,_bell___Bacterial_spot",10,0.22727272727272727
+24,Soybean___healthy,6,Cherry_(including_sour)___healthy,10,0.06578947368421052
+30,Tomato___Late_blight,33,Tomato___Spider_mites Two-spotted_spider_mite,8,0.14035087719298245
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,33,Tomato___Spider_mites Two-spotted_spider_mite,8,0.05
+30,Tomato___Late_blight,18,"Pepper,_bell___Bacterial_spot",7,0.12280701754385964
+16,Peach___Bacterial_spot,18,"Pepper,_bell___Bacterial_spot",7,0.10144927536231885
+24,Soybean___healthy,22,Potato___healthy,7,0.046052631578947366
+19,"Pepper,_bell___healthy",22,Potato___healthy,5,0.11363636363636363
+32,Tomato___Septoria_leaf_spot,20,Potato___Early_blight,5,0.09433962264150944
+24,Soybean___healthy,3,Apple___healthy,5,0.03289473684210526
+12,Grape___Esca_(Black_Measles),11,Grape___Black_rot,4,0.0975609756097561
+32,Tomato___Septoria_leaf_spot,16,Peach___Bacterial_spot,4,0.07547169811320754
+16,Peach___Bacterial_spot,30,Tomato___Late_blight,4,0.057971014492753624
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,28,Tomato___Bacterial_spot,4,0.025
+0,Apple___Apple_scab,32,Tomato___Septoria_leaf_spot,3,0.16666666666666666
+21,Potato___Late_blight,34,Tomato___Target_Spot,3,0.1
+29,Tomato___Early_blight,28,Tomato___Bacterial_spot,3,0.1
+11,Grape___Black_rot,12,Grape___Esca_(Black_Measles),3,0.08571428571428572
+34,Tomato___Target_Spot,33,Tomato___Spider_mites Two-spotted_spider_mite,3,0.07142857142857142
+3,Apple___healthy,24,Soybean___healthy,3,0.061224489795918366

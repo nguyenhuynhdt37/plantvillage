@@ -1,0 +1,8 @@
+Limitation
+"Một số phase có thể chỉ có single-run, nên statistical significance chưa mạnh bằng multi-seed experiments."
+Một số phase trước dùng subset để nghiên cứu nhanh; Phase 08/09 dùng full data nhưng cross-phase comparison cần diễn giải cẩn trọng.
+"PlantVillage là dataset tương đối sạch, có thể không phản ánh đầy đủ điều kiện ảnh ngoài thực địa."
+Chưa có cross-dataset validation hoặc external field-image validation.
+Hyperparameter search còn giới hạn do computational budget.
+"Grad-CAM/Grad-CAM++ là explainability định tính, không chứng minh causal reasoning của model."
+Chưa so sánh với Vision Transformer hoặc self-supervised pretrained backbones.

@@ -1,0 +1,17 @@
+model,component,index,layer_label,layer_type,children,parameters,trainable_parameters
+simple_cnn,features,0,[0] Conv2d,Conv2d,,336,336
+simple_cnn,features,1,[1] BatchNorm2d,BatchNorm2d,,24,24
+simple_cnn,features,2,[2] ReLU,ReLU,,0,0
+simple_cnn,features,3,[3] MaxPool2d,MaxPool2d,,0,0
+simple_cnn,features,4,[4] Conv2d,Conv2d,,2616,2616
+simple_cnn,features,5,[5] BatchNorm2d,BatchNorm2d,,48,48
+simple_cnn,features,6,[6] ReLU,ReLU,,0,0
+simple_cnn,features,7,[7] MaxPool2d,MaxPool2d,,0,0
+simple_cnn,features,8,[8] Conv2d,Conv2d,,10416,10416
+simple_cnn,features,9,[9] BatchNorm2d,BatchNorm2d,,96,96
+simple_cnn,features,10,[10] ReLU,ReLU,,0,0
+simple_cnn,features,11,[11] MaxPool2d,MaxPool2d,,0,0
+simple_cnn,features,12,[12] Conv2d,Conv2d,,41568,41568
+simple_cnn,features,13,[13] BatchNorm2d,BatchNorm2d,,192,192
+simple_cnn,features,14,[14] ReLU,ReLU,,0,0
+simple_cnn,features,15,[15] AdaptiveAvgPool2d,AdaptiveAvgPool2d,,0,0

@@ -1,0 +1,4 @@
+So sanh,From,To,Delta Accuracy,Delta Macro F1,Delta Minority Recall,Delta Worst-class Recall
+Effect of WeightedSampler,baseline,weighted_sampler,-0.017305315203955507,0.004779358524544586,0.16896076528835147,0.13731656184486374
+Effect of Light Augmentation,weighted_sampler,sampler_light_aug,-0.03646477132262049,-0.03300425903213078,-0.032202592426730514,0.005958291956305817
+Effect of EarlyStopping,sampler_light_aug,sampler_aug_earlystop,0.03770086526576011,0.041963766384890744,0.046184778822710104,0.10167464114832536

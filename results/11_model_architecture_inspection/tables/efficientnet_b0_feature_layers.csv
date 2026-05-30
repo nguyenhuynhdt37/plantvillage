@@ -1,0 +1,10 @@
+model,component,index,layer_label,layer_type,children,parameters,trainable_parameters
+efficientnet_b0,features,0,[0] ConvBNActivation,ConvBNActivation,Conv2d -> BatchNorm2d -> SiLU,928,928
+efficientnet_b0,features,1,[1] Sequential,Sequential,MBConv,1448,1448
+efficientnet_b0,features,2,[2] Sequential,Sequential,MBConv -> MBConv,16714,16714
+efficientnet_b0,features,3,[3] Sequential,Sequential,MBConv -> MBConv,46640,46640
+efficientnet_b0,features,4,[4] Sequential,Sequential,MBConv -> MBConv -> MBConv,242930,242930
+efficientnet_b0,features,5,[5] Sequential,Sequential,MBConv -> MBConv -> MBConv,543148,543148
+efficientnet_b0,features,6,[6] Sequential,Sequential,MBConv -> MBConv -> MBConv -> MBConv,2026348,2026348
+efficientnet_b0,features,7,[7] Sequential,Sequential,MBConv,717232,717232
+efficientnet_b0,features,8,[8] ConvBNActivation,ConvBNActivation,Conv2d -> BatchNorm2d -> SiLU,412160,412160

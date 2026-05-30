@@ -1,0 +1,2 @@
+Hybrid Experiment,Phase 05 Component,Phase 05 Description,Phase 06 Component,Train Size,Use Sampler,Use EarlyStopping
+hybrid_sampler_aug_earlystop_class_balanced_loss,sampler_aug_earlystop,WeightedRandomSampler + Light Augmentation + EarlyStopping,class_balanced_loss,9383,True,True

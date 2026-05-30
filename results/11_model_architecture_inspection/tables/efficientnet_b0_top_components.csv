@@ -1,0 +1,4 @@
+model,component,layer_type,children,parameters,trainable_parameters
+efficientnet_b0,features,Sequential,ConvBNActivation -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential,4007548,4007548
+efficientnet_b0,avgpool,AdaptiveAvgPool2d,,0,0
+efficientnet_b0,classifier,Sequential,Dropout -> Linear,48678,48678

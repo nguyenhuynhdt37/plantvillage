@@ -1,0 +1,5 @@
+model,component,index,layer_label,layer_type,children,parameters,trainable_parameters
+simple_cnn,classifier,0,[0] Linear,Linear,,6208,6208
+simple_cnn,classifier,1,[1] ReLU,ReLU,,0,0
+simple_cnn,classifier,2,[2] Dropout,Dropout,,0,0
+simple_cnn,classifier,3,[3] Linear,Linear,,2470,2470

@@ -1,0 +1,6 @@
+name,layer_type,children,parameters,trainable_parameters
+stem,Sequential,Conv2d -> BatchNorm2d -> ReLU,1392,1392
+block1,ResidualBlock,Sequential -> Identity -> ReLU,41664,41664
+block2,ResidualBlock,Sequential -> Sequential -> ReLU,129600,129600
+attention,SEBlock,AdaptiveAvgPool2d -> Sequential,2412,2412
+pool,AdaptiveAvgPool2d,,0,0

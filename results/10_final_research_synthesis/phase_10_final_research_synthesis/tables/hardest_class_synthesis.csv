@@ -1,0 +1,41 @@
+Model,Class_ID,Class,Train Sample Count,Is Minority,Recall,F1-score
+Phase 05 winner,19,"Pepper,_bell___healthy",236,False,0.5227272727272727,0.6764705882352942
+Phase 05 winner,16,Peach___Bacterial_spot,367,False,0.5507246376811594,0.6129032258064516
+Phase 05 winner,0,Apple___Apple_scab,100,True,0.5555555555555556,0.5882352941176471
+Phase 05 winner,30,Tomato___Late_blight,305,False,0.5614035087719298,0.6464646464646465
+Phase 05 winner,32,Tomato___Septoria_leaf_spot,283,False,0.5849056603773585,0.5961538461538461
+Phase 05 winner,29,Tomato___Early_blight,160,False,0.6333333333333333,0.7450980392156863
+Phase 05 winner,3,Apple___healthy,263,False,0.6938775510204082,0.7311827956989247
+Phase 05 winner,21,Potato___Late_blight,160,False,0.7333333333333333,0.7096774193548387
+Phase 05 winner,31,Tomato___Leaf_Mold,152,True,0.75,0.7
+Phase 05 winner,28,Tomato___Bacterial_spot,340,False,0.7936507936507936,0.8064516129032258
+Phase 08 MobileNetV2 winner,34,Tomato___Target_Spot,1123,False,0.9361702127659576,0.946236559139785
+Phase 08 MobileNetV2 winner,29,Tomato___Early_blight,800,False,0.94,0.912621359223301
+Phase 08 MobileNetV2 winner,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,410,True,0.9411764705882352,0.9230769230769232
+Phase 08 MobileNetV2 winner,30,Tomato___Late_blight,1527,False,0.9476439790575916,0.960212201591512
+Phase 08 MobileNetV2 winner,9,Corn_(maize)___Northern_Leaf_Blight,788,False,0.9489795918367347,0.9587628865979382
+Phase 08 MobileNetV2 winner,28,Tomato___Bacterial_spot,1702,False,0.9577464788732394,0.973747016706444
+Phase 08 MobileNetV2 winner,31,Tomato___Leaf_Mold,762,False,0.9578947368421052,0.9578947368421052
+Phase 08 MobileNetV2 winner,0,Apple___Apple_scab,504,True,0.9682539682539684,0.976
+Phase 08 MobileNetV2 winner,3,Apple___healthy,1316,False,0.9696969696969696,0.98159509202454
+Phase 08 MobileNetV2 winner,33,Tomato___Spider_mites Two-spotted_spider_mite,1341,False,0.9761904761904762,0.973293768545994
+Phase 08 EfficientNet-B0 winner,9,Corn_(maize)___Northern_Leaf_Blight,788,False,0.8979591836734694,0.9263157894736842
+Phase 08 EfficientNet-B0 winner,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,410,True,0.9215686274509804,0.8785046728971962
+Phase 08 EfficientNet-B0 winner,22,Potato___healthy,122,True,0.9333333333333332,0.9655172413793104
+Phase 08 EfficientNet-B0 winner,34,Tomato___Target_Spot,1123,False,0.9361702127659576,0.9263157894736842
+Phase 08 EfficientNet-B0 winner,0,Apple___Apple_scab,504,True,0.9365079365079364,0.959349593495935
+Phase 08 EfficientNet-B0 winner,29,Tomato___Early_blight,800,False,0.94,0.9306930693069309
+Phase 08 EfficientNet-B0 winner,30,Tomato___Late_blight,1527,False,0.9476439790575916,0.9653333333333334
+Phase 08 EfficientNet-B0 winner,33,Tomato___Spider_mites Two-spotted_spider_mite,1341,False,0.9583333333333334,0.9554896142433236
+Phase 08 EfficientNet-B0 winner,28,Tomato___Bacterial_spot,1702,False,0.9671361502347418,0.976303317535545
+Phase 08 EfficientNet-B0 winner,12,Grape___Esca_(Black_Measles),1106,False,0.9712230215827338,0.9818181818181818
+Improved MobileNetV2,7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,410,True,0.9411764705882352,0.9411764705882352
+Improved MobileNetV2,29,Tomato___Early_blight,800,False,0.95,0.9547738693467336
+Improved MobileNetV2,34,Tomato___Target_Spot,1123,False,0.950354609929078,0.9571428571428572
+Improved MobileNetV2,28,Tomato___Bacterial_spot,1702,False,0.9671361502347418,0.9809523809523808
+Improved MobileNetV2,9,Corn_(maize)___Northern_Leaf_Blight,788,False,0.9693877551020408,0.9693877551020408
+Improved MobileNetV2,11,Grape___Black_rot,944,False,0.9830508474576272,0.9872340425531916
+Improved MobileNetV2,30,Tomato___Late_blight,1527,False,0.9842931937172776,0.9817232375979112
+Improved MobileNetV2,3,Apple___healthy,1316,False,0.987878787878788,0.9939024390243902
+Improved MobileNetV2,33,Tomato___Spider_mites Two-spotted_spider_mite,1341,False,0.988095238095238,0.9851632047477744
+Improved MobileNetV2,32,Tomato___Septoria_leaf_spot,1417,False,0.9887005649717514,0.9859154929577464

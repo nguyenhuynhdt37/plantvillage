@@ -1,0 +1,3 @@
+model,component,index,layer_label,layer_type,children,parameters,trainable_parameters
+mobilenetv2,classifier,0,[0] Dropout,Dropout,,0,0
+mobilenetv2,classifier,1,[1] Linear,Linear,,48678,48678

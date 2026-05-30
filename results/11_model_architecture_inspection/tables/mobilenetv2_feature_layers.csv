@@ -1,0 +1,20 @@
+model,component,index,layer_label,layer_type,children,parameters,trainable_parameters
+mobilenetv2,features,0,[0] ConvBNActivation,ConvBNActivation,Conv2d -> BatchNorm2d -> ReLU6,928,928
+mobilenetv2,features,1,[1] InvertedResidual,InvertedResidual,Sequential,896,896
+mobilenetv2,features,2,[2] InvertedResidual,InvertedResidual,Sequential,5136,5136
+mobilenetv2,features,3,[3] InvertedResidual,InvertedResidual,Sequential,8832,8832
+mobilenetv2,features,4,[4] InvertedResidual,InvertedResidual,Sequential,10000,10000
+mobilenetv2,features,5,[5] InvertedResidual,InvertedResidual,Sequential,14848,14848
+mobilenetv2,features,6,[6] InvertedResidual,InvertedResidual,Sequential,14848,14848
+mobilenetv2,features,7,[7] InvertedResidual,InvertedResidual,Sequential,21056,21056
+mobilenetv2,features,8,[8] InvertedResidual,InvertedResidual,Sequential,54272,54272
+mobilenetv2,features,9,[9] InvertedResidual,InvertedResidual,Sequential,54272,54272
+mobilenetv2,features,10,[10] InvertedResidual,InvertedResidual,Sequential,54272,54272
+mobilenetv2,features,11,[11] InvertedResidual,InvertedResidual,Sequential,66624,66624
+mobilenetv2,features,12,[12] InvertedResidual,InvertedResidual,Sequential,118272,118272
+mobilenetv2,features,13,[13] InvertedResidual,InvertedResidual,Sequential,118272,118272
+mobilenetv2,features,14,[14] InvertedResidual,InvertedResidual,Sequential,155264,155264
+mobilenetv2,features,15,[15] InvertedResidual,InvertedResidual,Sequential,320000,320000
+mobilenetv2,features,16,[16] InvertedResidual,InvertedResidual,Sequential,320000,320000
+mobilenetv2,features,17,[17] InvertedResidual,InvertedResidual,Sequential,473920,473920
+mobilenetv2,features,18,[18] ConvBNActivation,ConvBNActivation,Conv2d -> BatchNorm2d -> ReLU6,412160,412160

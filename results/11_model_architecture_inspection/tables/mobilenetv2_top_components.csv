@@ -1,0 +1,3 @@
+model,component,layer_type,children,parameters,trainable_parameters
+mobilenetv2,features,Sequential,ConvBNActivation -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual,2223872,2223872
+mobilenetv2,classifier,Sequential,Dropout -> Linear,48678,48678

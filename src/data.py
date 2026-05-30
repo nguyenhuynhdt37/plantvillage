@@ -26,7 +26,7 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png"}
 class ProjectPaths:
     """Common project paths used by the notebooks."""
 
-    project_dir: Path = Path("/Users/huynh/codes/kpdl/plan")
+    project_dir: Path = Path(__file__).resolve().parents[1]
 
     @property
     def base_dir(self) -> Path:
@@ -325,4 +325,3 @@ def build_weighted_sampler(
         num_samples=len(sample_weights),
         replacement=replacement,
     )
-

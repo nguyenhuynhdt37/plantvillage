@@ -1,8 +1,9 @@
 import shutil
 from pathlib import Path
 
-src_dir = Path('/Users/huynh/codes/kpdl/plan/results')
-dst_dir = Path('/Users/huynh/.gemini/antigravity/brain/018d8519-b81e-4e00-8820-93c5beed240f')
+project_dir = Path(__file__).resolve().parent
+src_dir = project_dir / 'results'
+dst_dir = project_dir / 'reports' / 'copied_artifacts'
 
 dst_dir.mkdir(parents=True, exist_ok=True)
 

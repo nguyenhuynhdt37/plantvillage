@@ -1,38 +1,49 @@
-=== BÁO CÁO PHÂN TÍCH HỆ THỐNG KHOA HỌC DỮ LIỆU - PLANTVILLAGE EDA ===
-Ngày thực thi: 2026-05-24 11:19:10
+=== BÁO CÁO PHÂN TÍCH DỮ LIỆU - PLANTVILLAGE EDA ===
+Ngày thực thi: 2026-05-30 13:58:20
 
-1. PHÂN TÍCH ĐỘ HỖN LOẠN & MẤT CÂN BẰNG PHÂN BỐ LỚP:
+1. PHÂN TÍCH MẤT CÂN BẰNG PHÂN BỐ LỚP:
    * Phiên bản dữ liệu 'COLOR':
      - Tổng số ảnh: 54305 | Tổng số lớp: 38
-     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
-     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
-     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
-     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
-     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+     - Tỷ lệ mất cân bằng: 36.23x giữa lớp nhiều nhất và ít nhất
+     - Entropy Shannon: 4.8249 | Entropy chuẩn hóa: 0.9194
+     - Gini coefficient: 0.4000
+     - Lớp đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp thiểu số: 'Potato___healthy' (152 ảnh)
+     - Diễn giải: dữ liệu lệch lớp mạnh ở mức class-level. Entropy chuẩn hóa cao chỉ cho thấy dữ liệu vẫn trải trên nhiều class, không phủ nhận imbalance giữa class lớn nhất và nhỏ nhất.
 
    * Phiên bản dữ liệu 'GRAYSCALE':
      - Tổng số ảnh: 54305 | Tổng số lớp: 38
-     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
-     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
-     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
-     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
-     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+     - Tỷ lệ mất cân bằng: 36.23x giữa lớp nhiều nhất và ít nhất
+     - Entropy Shannon: 4.8249 | Entropy chuẩn hóa: 0.9194
+     - Gini coefficient: 0.4000
+     - Lớp đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp thiểu số: 'Potato___healthy' (152 ảnh)
+     - Diễn giải: dữ liệu lệch lớp mạnh ở mức class-level. Entropy chuẩn hóa cao chỉ cho thấy dữ liệu vẫn trải trên nhiều class, không phủ nhận imbalance giữa class lớn nhất và nhỏ nhất.
 
    * Phiên bản dữ liệu 'SEGMENTED':
      - Tổng số ảnh: 54306 | Tổng số lớp: 38
-     - Tỷ lệ mất cân bằng (Imbalance Ratio): 36.23
-     - Entropy Shannon: 4.8249 (Entropy chuẩn hóa: 0.9194)
-     - Hệ số bất bình đẳng Gini (Gini Coefficient): 0.4000
-     - Lớp chiếm đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
-     - Lớp chiếm thiểu số: 'Potato___healthy' (152 ảnh)
+     - Tỷ lệ mất cân bằng: 36.23x giữa lớp nhiều nhất và ít nhất
+     - Entropy Shannon: 4.8249 | Entropy chuẩn hóa: 0.9194
+     - Gini coefficient: 0.4000
+     - Lớp đa số: 'Orange___Haunglongbing_(Citrus_greening)' (5507 ảnh)
+     - Lớp thiểu số: 'Potato___healthy' (152 ảnh)
+     - Diễn giải: dữ liệu lệch lớp mạnh ở mức class-level. Entropy chuẩn hóa cao chỉ cho thấy dữ liệu vẫn trải trên nhiều class, không phủ nhận imbalance giữa class lớn nhất và nhỏ nhất.
 
-2. ĐÁNH GIÁ THUỘC TÍNH VẬT LÝ VÀ CHẾ ĐỘ MÀU (IMAGE ATTRIBUTES):
-   * Bộ COLOR: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'RGB': 1.0}
-   * Bộ GRAYSCALE: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'Grayscale (RGB Saved)': 1.0}
-   * Bộ SEGMENTED: Kích thước TB 256.0x256.0 | Phân bố hệ màu: {'RGB': 1.0}
+2. ĐÁNH GIÁ THUỘC TÍNH ẢNH:
+   * Bộ COLOR: kích thước TB 256.0x256.0 | hệ màu: {'RGB': 1.0}
+   * Bộ GRAYSCALE: kích thước TB 256.0x256.0 | hệ màu: {'Grayscale (RGB Saved)': 1.0}
+   * Bộ SEGMENTED: kích thước TB 256.0x256.0 | hệ màu: {'RGB': 1.0}
+   * Toàn bộ ảnh được quan sát có kích thước 256x256, giúp pipeline preprocessing đơn giản và nhất quán.
+   * Lưu ý: SEGMENTED có +1 ảnh so với COLOR; cần kiểm tra đồng bộ file khi so sánh dataset variants.
 
-3. PHÁT HIỆN TRÙNG LẶP DỮ LIỆU & RÒ RỈ THÔNG TIN (dHash):
-   - Quét toàn bộ 54305 ảnh của bộ màu gốc bằng dHash đa luồng song song.
-   - Kết quả phát hiện: 30 cặp trùng lặp nội lớp (Intra-class) và 0 cặp trùng lặp liên lớp (Cross-class).
-   - Nhận định: Không phát hiện trùng lặp liên lớp, xác nhận không có hiện tượng nhiễu gán nhãn chéo (mislabeling).
-   - Hành động đề xuất: Lọc bỏ toàn bộ danh sách trùng lặp nội lớp trong file duplicate_pairs.csv để chống rò rỉ dữ liệu.
+3. PHÁT HIỆN TRÙNG LẶP DỮ LIỆU & RÒ RỈ THÔNG TIN:
+   - Đã quét 54305 ảnh của bộ COLOR bằng dHash.
+   - Phát hiện 30 cặp trùng lặp nội lớp và 0 cặp trùng lặp liên lớp.
+   - Không phát hiện trùng lặp liên lớp, nên chưa thấy dấu hiệu mislabeling giữa các class từ dHash.
+   - Duplicate nội lớp cần được kiểm soát để tránh cùng ảnh hoặc ảnh gần trùng xuất hiện đồng thời ở train/test.
+
+4. KIẾN NGHỊ CHO PIPELINE MACHINE LEARNING:
+   - Sử dụng stratified split để giữ tỷ lệ class ổn định giữa train/validation/test.
+   - Ưu tiên COLOR làm dữ liệu chính, nhưng vẫn đánh giá SEGMENTED bằng thực nghiệm baseline ở Phase 03.
+   - Không dựa vào Accuracy đơn lẻ; cần báo cáo Macro F1, Minority Recall và Worst-class Recall.
+   - Do tỷ lệ lệch lớp khoảng 36x, các kỹ thuật imbalance như sampler, class-balanced loss và hybrid strategy cần được kiểm thử nghiêm túc ở các phase sau.

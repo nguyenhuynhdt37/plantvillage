@@ -1,0 +1,8 @@
+model,component,layer_type,children,parameters,trainable_parameters
+simple_cnn,features,Sequential,Conv2d -> BatchNorm2d -> ReLU -> MaxPool2d -> Conv2d -> BatchNorm2d -> ReLU -> MaxPool2d,55296,55296
+simple_cnn,classifier,Sequential,Linear -> ReLU -> Dropout -> Linear,8678,8678
+mobilenetv2,features,Sequential,ConvBNActivation -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual -> InvertedResidual,2223872,2223872
+mobilenetv2,classifier,Sequential,Dropout -> Linear,48678,48678
+efficientnet_b0,features,Sequential,ConvBNActivation -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential -> Sequential,4007548,4007548
+efficientnet_b0,avgpool,AdaptiveAvgPool2d,,0,0
+efficientnet_b0,classifier,Sequential,Dropout -> Linear,48678,48678

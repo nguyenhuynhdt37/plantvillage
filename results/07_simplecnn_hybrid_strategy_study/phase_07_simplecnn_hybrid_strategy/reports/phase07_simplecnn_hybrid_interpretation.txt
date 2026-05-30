@@ -1,0 +1,14 @@
+PHASE 07 INTERPRETATION
+=======================
+
+Phase 07 kiểm tra hybrid strategy bằng SimpleCNN: kết hợp winner của Phase 05 (`sampler_aug_earlystop`) với winner của Phase 06 (`class_balanced_loss`).
+
+Kết quả so sánh:
+- Hybrid ΔMacro F1 so với Phase 05 winner: -0.0848
+- Hybrid ΔMacro F1 so với Phase 06 winner: -0.0681
+
+Experiment tốt nhất theo Macro F1 là `sampler_aug_earlystop` từ `Phase 05 Winner` với Macro F1 = 0.8126.
+
+Hybrid strategy không vượt winner đơn lẻ. Điều này cho thấy một hướng imbalance handling đã đủ mạnh hoặc việc kết hợp làm optimization kém ổn định hơn.
+
+Phase 07 vẫn thuộc giai đoạn SimpleCNN. Từ Phase 08 trở đi mới bắt đầu huấn luyện các mô hình học sâu hiện đại như MobileNetV2 và EfficientNet-B0.

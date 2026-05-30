@@ -1,0 +1,4 @@
+model,model_type,total_parameters,trainable_parameters
+simple_cnn,SimpleCNN,63974,63974
+mobilenetv2,MobileNetV2,2272550,2272550
+efficientnet_b0,EfficientNet,4056226,4056226
