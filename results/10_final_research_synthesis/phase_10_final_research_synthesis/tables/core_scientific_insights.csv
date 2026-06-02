@@ -1,7 +1,6 @@
 Insight_ID,Scientific Insight
-1,"Minority exposure là yếu tố trung tâm trong severe class imbalance. WeightedRandomSampler cải thiện cơ hội xuất hiện của minority samples trong mini-batch, qua đó thường làm tăng Minority Recall và Worst Recall."
-2,"Loss-level balancing không nhất thiết vượt sampler-based balancing. Weighted CE, Focal Loss và Class-Balanced Loss thay đổi optimization objective, nhưng có thể gây instability nếu weighting quá mạnh."
-3,Phase 07 kiểm tra hybrid SimpleCNN: kết hợp winner sampler/data-level của Phase 05 với winner loss-level của Phase 06 để đánh giá hiệu ứng bổ trợ.
-4,Phase 08 trực tiếp đáp ứng yêu cầu dùng hai mô hình học sâu hiện đại bằng cách so sánh MobileNetV2 và EfficientNet-B0 trong cùng winner imbalance strategy.
-5,Improved MobileNetV2 chỉ nên được chọn nếu residual/attention enhancement cải thiện Macro F1 hoặc Minority Recall tương xứng với chi phí parameter/inference time.
-6,"Accuracy không phải metric đủ tin cậy trong severe imbalance. Macro F1, Minority Recall và Worst Recall phản ánh fairness-aware performance tốt hơn."
+1,"Phase 10 tập trung đánh giá bốn mô hình đại diện cuối cùng: SimpleCNN, Best MobileNetV2, Best EfficientNet-B0 và Best Improved MobileNetV2."
+2,SimpleCNN là mốc CNN custom để kiểm tra năng lực của kiến trúc tự xây dựng khi dùng cùng imbalance-aware pipeline.
+3,Best MobileNetV2 và Best EfficientNet-B0 cho phép đánh giá trực tiếp tác động của pretrained CNN backbones trong cùng điều kiện tối đa 15 epoch.
+4,Best Improved MobileNetV2 kiểm tra liệu residual branch và attention có cải thiện MobileNetV2 baseline tương xứng với chi phí mô hình hay không.
+5,"Accuracy không phải metric đủ tin cậy trong severe imbalance. Macro F1, Minority Recall và Worst Recall phản ánh fairness-aware performance tốt hơn."

@@ -1,5 +1,7 @@
 Comparison,Metric,N,Mean Delta,Wilcoxon p-value,Effect Size dz,Note
-MobileNetV2 winner vs EfficientNet-B0 winner,Recall,38,-0.004177883883983339,0.19812291175396723,-0.25836162886013064,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
-MobileNetV2 winner vs EfficientNet-B0 winner,F1-score,38,-0.003365703176621072,0.12439677550010476,-0.28619042053682625,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
-MobileNetV2 baseline vs mobilenetv2_residual_se,Recall,38,0.005524915306041062,0.0026055629474458757,0.49994663971132025,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
-MobileNetV2 baseline vs mobilenetv2_residual_se,F1-score,38,0.0058860613626952754,0.0001226738150927823,0.6186107332327526,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+SimpleCNN vs Best MobileNetV2,Recall,38,0.038740397479402874,7.253332937247212e-06,0.8278831953714267,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+SimpleCNN vs Best MobileNetV2,F1-score,38,0.05347747914555654,4.972161277661779e-07,0.7766501489925043,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+Best MobileNetV2 vs Best EfficientNet-B0,Recall,38,-0.004177883883983339,0.19812291175396723,-0.25836162886013064,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+Best MobileNetV2 vs Best EfficientNet-B0,F1-score,38,-0.003365703176621072,0.12439677550010476,-0.28619042053682625,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+MobileNetV2 baseline vs Best Improved MobileNetV2,Recall,38,0.005524915306041062,0.0026055629474458757,0.49994663971132025,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.
+MobileNetV2 baseline vs Best Improved MobileNetV2,F1-score,38,0.0058860613626952754,0.0001226738150927823,0.6186107332327526,Single-run paired per-class analysis; not a substitute for multi-seed significance testing.

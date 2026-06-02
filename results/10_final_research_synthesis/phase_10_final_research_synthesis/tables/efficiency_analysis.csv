@@ -1,4 +1,4 @@
 Model,Total Params,Estimated Param Memory MB,Inference Time ms/image,Suitability
-mobilenetv2_baseline,2272550,8.669090270996094,6.64943334995769,Mobile/edge candidate
-mobilenetv2_residual,2758806,10.524009704589844,7.600310399720911,Mobile/edge candidate
-mobilenetv2_residual_se,2761218,10.533210754394531,8.17203954939032,Mobile/edge candidate
+mobilenetv2_baseline,2272550,8.669090270996094,6.382685449716519,Mobile/edge candidate
+mobilenetv2_residual,2758806,10.524009704589844,7.698214599804487,Mobile/edge candidate
+mobilenetv2_residual_se,2761218,10.533210754394531,7.9899062500771825,Mobile/edge candidate
