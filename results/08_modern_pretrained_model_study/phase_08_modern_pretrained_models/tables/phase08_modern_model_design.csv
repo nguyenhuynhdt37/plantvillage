@@ -1,3 +1,4 @@
-name,model_name,description
-mobilenetv2_winner,mobilenetv2,MobileNetV2 pretrained + WeightedRandomSampler + Light Augmentation + EarlyStopping
-efficientnet_b0_winner,efficientnet_b0,EfficientNet-B0 pretrained + WeightedRandomSampler + Light Augmentation + EarlyStopping
+name,model_name,training_mode,description
+simple_cnn_winner,simple_cnn,single_stage,SimpleCNN + WeightedRandomSampler + Light Augmentation + EarlyStopping
+mobilenetv2_winner,mobilenetv2,two_stage,MobileNetV2 pretrained + WeightedRandomSampler + Light Augmentation + EarlyStopping
+efficientnet_b0_winner,efficientnet_b0,two_stage,EfficientNet-B0 pretrained + WeightedRandomSampler + Light Augmentation + EarlyStopping

@@ -1,5 +1,5 @@
 # Báo cáo Phase 09: Improved MobileNetV2 Architecture Study
-Thời điểm tạo báo cáo: 2026-05-24 16:30:13
+Thời điểm tạo báo cáo: 2026-06-01 23:56:01
 
 ## 1. Architecture design
 - Path 1: MobileNetV2 pretrained backbone làm feature extractor chính.
@@ -18,9 +18,9 @@ mobilenetv2_residual_se 2761218  0.991530  0.988808         0.986750      0.9910
 
 ## 4. Model complexity
                   Model  Total Params  Trainable Params Stage 1  Estimated Param Memory MB  Inference Time ms/image
-   mobilenetv2_baseline       2272550                     48678                   8.669090                 6.649433
-   mobilenetv2_residual       2758806                    534934                  10.524010                 7.600310
-mobilenetv2_residual_se       2761218                    537346                  10.533211                 8.172040
+   mobilenetv2_baseline       2272550                     48678                   8.669090                 6.382685
+   mobilenetv2_residual       2758806                    534934                  10.524010                 7.698215
+mobilenetv2_residual_se       2761218                    537346                  10.533211                 7.989906
 
 ## 5. Per-class and error analysis
 Per-class Recall/F1, hardest-class ranking và misclassification histogram được lưu trong thư mục `tables/`.
